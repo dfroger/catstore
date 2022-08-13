@@ -10,6 +10,5 @@ export class Products implements ICustomElementViewModel {
 
     async binding(): Promise<any> {
         this.products = await this.api.getProducts();
-        console.log("===========>", this.products);
     }
 }

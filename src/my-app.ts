@@ -13,6 +13,11 @@ export class MyApp {
           title: "Products"
       },
       {
+          path: ["product"],
+          component: import("./routes/product/product"),
+          title: "Product"
+      },
+      {
           path: ["checkout"],
           component: import("./routes/checkout/checkout"),
           title: "Checkout"
